@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HomeCalcApp</string>
+    <string name="stLogin">Login</string>
+    <string name="stPassword">Password</string>
+    <string name="start">Enter</string>
+    <string name="back">Back</string>
+    <string name="tvStart">Start</string>
+    <string name="meterCalc">"Number of square meters  (up to 1 000) "</string>
+    <string name="result">Result</string>
+    <string name="price">Real estate price, ₽</string>
+    <string name="meterPrice">Price per square meter, ₽</string>
+    <string name="firstPaymentSumm">The amount of the initial payment, ₽</string>
+    <string name="totalDepositSumm">The total amount of deposits, ₽</string>
+    <string name="rateOfEveryMonth">Rate for each month, ₽</string>
+    <string name="wallet">The amount that is available now, ₽</string>
+    <string name="rate">Interest rate, %</string>
+    <string name="rateDate">Maturity date (in months) (up to 1200 )</string>
+    <string name="calc">Calculate</string>
+    <string name="depositEveryMonthSumm">Deposits every month, ₽</string>
+    <string name="finalPrice">Final price</string>
+    <string name="finalHousePrice">The final price of the property (₽)</string>
+    <string name="totalDeposit">Final replenishment (₽)</string>
+    <string name="totalRateSumm">Total percentages (₽)</string>
+    <string name="developer">Abdulkadyrov Nurulla, RIBO-02-21</string>
+</resources>

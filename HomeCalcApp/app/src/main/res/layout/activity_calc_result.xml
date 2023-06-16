@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalcResultActivity"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/price"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/housePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="100dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/meterPrice"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/houseMeterPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="60dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/firstPaymentSumm"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvFirstPaymentSumm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/totalDepositSumm"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvTotalDepositSumm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/depositEveryMonthSumm"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tvDepositEveryMonthSumm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rateOfEveryMonth"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tvRateEveryMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/finalPrice"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/finalHouseprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/finalHousePrice"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvFinalHousePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp">
+        <TextView
+            android:id="@+id/totalDeposit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/totalDeposit"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tvTotalDeposit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp">
+        <TextView
+            android:id="@+id/totalRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/totalRateSumm"
+            android:textStyle="italic"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tvTotalRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_action_name"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HomeCalcApp</string>
+    <string name="stLogin">Логин</string>
+    <string name="stPassword">Пароль</string>
+    <string name="start">Войти</string>
+    <string name="back">Назад</string>
+    <string name="tvStart">Вход</string>
+    <string name="developer">Абдулкадыров Нурулла, РИБО–02–21</string>
+    <string name="meterCalc">Количество квадратных метров (до 1 000) </string>
+    <string name="result">Результат</string>
+    <string name="price">Цена недвижимости (₽)</string>
+    <string name="meterPrice">Цена за квадратный метр (₽)</string>
+    <string name="firstPaymentSumm">Сумма первоначального взноса (₽)</string>
+    <string name="totalDepositSumm">Общая сумма пополнений в месяц (₽)</string>
+    <string name="depositEveryMonthSumm">Пополнения каждый месяц (₽)</string>
+    <string name="rateOfEveryMonth">Проценты на каждый месяц (₽)</string>
+    <string name="wallet">Сумма, которая имеется сейчас (₽) </string>
+    <string name="rate">Процентная ставка (%)</string>
+    <string name="rateDate">Срок погашения (в месяцах) (до 1200)</string>
+    <string name="calc">Посчитать</string>
+    <string name="finalPrice">Итоговая цена</string>
+    <string name="finalHousePrice">Итоговая цена недвижимости (₽)</string>
+    <string name="totalDeposit">Итоговое пополнение (₽)</string>
+    <string name="totalRateSumm">Итоговые проценты (₽)</string>
+</resources>
